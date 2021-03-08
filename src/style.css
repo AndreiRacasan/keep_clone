@@ -11,3 +11,76 @@ html {
 body {
   background-color: #fff;
 }
+
+.header {
+  margin: auto -10px;
+  padding: 10px 20px;
+  box-shadow: 0 0 3px 0 rgb(114, 114, 114, 0.5);
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
+
+.header h3 {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-top: 2px;
+  color: #666;
+}
+
+form {
+  position: relative;
+  width: 600px;
+  margin: 32px auto 50px auto;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128, 0.5);
+}
+
+form input {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-weight: 400;
+  font-family: sans-serif;
+  resize: none;
+  outline: none;
+}
+
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  resize: none;
+  outline: none;
+}
+
+.note {
+  background-color: #fff;
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(175, 175, 175, 0.5);
+  padding: 10px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.note p {
+  font-size: 1rem;
+  margin-bottom: 2px;
+  white-space: pre-wrap;
+}
