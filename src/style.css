@@ -101,3 +101,15 @@ form button {
   word-wrap: break-word;
   line-height: 1.35;
 }
+
+.note button {
+  position: relative;
+  float: right;
+  color: #777;
+  font-weight: 700;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

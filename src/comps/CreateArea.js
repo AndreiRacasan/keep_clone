@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function CreateArea(props) {
+function CreateArea({onAdd}) {
 
   const [note, setNote] = useState({
     title: '',
@@ -17,9 +17,13 @@ function CreateArea(props) {
     })
   }
 
-  function addNote(pressButton) {
-    pressButton.preventDefault()
-    console.log(pressButton)
+  function submitButton(e) {
+    onAdd(note);
+    setNote({
+      title: "",
+      content: "",
+    });
+    e.preventDefault();
   }
 
   return (
@@ -40,7 +44,7 @@ function CreateArea(props) {
                >
             </textarea>
         </p>
-        <button onClick={addNote}>+</button>
+        <button onClick={submitButton}>+</button>
       </form>      
     </div>
   )
