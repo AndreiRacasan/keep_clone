@@ -113,3 +113,11 @@ form button {
   background-color: transparent;
   cursor: pointer;
 }
+
+.count {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
